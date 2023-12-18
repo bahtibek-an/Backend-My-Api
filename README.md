@@ -1,21 +1,11 @@
-# Backend My Api
-Build a backend project providing an API.
+# Description
 
-What is an API?
-API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
+An application programming interface (API) is a way for two or more computer programs to communicate with each other. It is a type of software interface, offering a service to other pieces of software.[1] A document or standard that describes how to build or use such a connection or interface is called an API specification. A computer system that meets this standard is said to implement or expose an API. The term API may refer either to the specification or to the implementation. Whereas a system's user interface dictates how its end-users interact with the system in question, its API dictates how to write code that takes advantage of that system's capabilities.
 
-When you use an application on your mobile phone, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and sends it back to your phone. The application then interprets that data and presents you with the information you wanted in a readable way. This is what an API is - all of this happens via API.
+In contrast to a user interface, which connects a computer to a person, an application programming interface connects computers or pieces of software to each other. It is not intended to be used directly by a person (the end user) other than a computer programmer who is incorporating it into the software. An API is often made up of different parts which act as tools or services that are available to the programmer. A program or a programmer that uses one of these parts is said to call that portion of the API. The calls that make up the API are also known as subroutines, methods, requests, or endpoints. An API specification defines these calls, meaning that it explains how to use or implement them.
 
-![image](https://github.com/bahtibek-an/Backend-My-Api/assets/57597976/972bd4d6-8c61-4dae-9bb1-18a5d51a17f8)
+# Task
 
-
-## SPECIFICATIONS
-This project is divided into 3 parts. At the end you will host your application in the cloud. :)
-
-### Part I
-Find a topic you like (volcanoes/earthquakes/animals/...), get a lot (more than 1k row data)
-
-### Part II
 Build an API backend using any framework you want to use.
 
 Features of your project:
@@ -24,8 +14,7 @@ User authentification in order to administer the data
 
 User Token (OAuth)
 
-Get/Post/Update/Destroy on your topic
--- Get must be accessible without being connected
+Get/Post/Update/Destroy on your topic -- Get must be accessible without being connected
 
 Get will provide pagination (max 20 elements per page)
 
@@ -33,12 +22,14 @@ Cache (redis)
 
 (Optional) A Graphql interface
 
-Documentation, but you can use swagger on your API. [Example](https://try.gitea.io/api/swagger)
+Documentation, but you can use swagger on your API. Example
 
 A postman Documentation (and you will provide the link inside your readme)
 
-### Part III
-Your project must be hosted in the cloud. (AWS/Google Cloud/Azure/IBM)
-Each of these providers have a free tier. You should be able to host it for 0$. :)
+# Usage
+
+Your project must be hosted in the cloud. (AWS/Google Cloud/Azure/IBM) Each of these providers have a free tier. You should be able to host it for 0$. :)
 
 You will provide the URL of your project inside the README
+
+# Installation
