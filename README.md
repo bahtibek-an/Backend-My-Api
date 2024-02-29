@@ -1,21 +1,13 @@
-# Backend My Api
+# Description
+
 Build a backend project providing an API.
 
-What is an API?
-API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
+What is an API? API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
 
 When you use an application on your mobile phone, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and sends it back to your phone. The application then interprets that data and presents you with the information you wanted in a readable way. This is what an API is - all of this happens via API.
 
-![image](https://github.com/bahtibek-an/Backend-My-Api/assets/57597976/972bd4d6-8c61-4dae-9bb1-18a5d51a17f8)
+# Task
 
-
-## SPECIFICATIONS
-This project is divided into 3 parts. At the end you will host your application in the cloud. :)
-
-### Part I
-Find a topic you like (volcanoes/earthquakes/animals/...), get a lot (more than 1k row data)
-
-### Part II
 Build an API backend using any framework you want to use.
 
 Features of your project:
@@ -24,8 +16,7 @@ User authentification in order to administer the data
 
 User Token (OAuth)
 
-Get/Post/Update/Destroy on your topic
--- Get must be accessible without being connected
+Get/Post/Update/Destroy on your topic -- Get must be accessible without being connected
 
 Get will provide pagination (max 20 elements per page)
 
@@ -33,12 +24,14 @@ Cache (redis)
 
 (Optional) A Graphql interface
 
-Documentation, but you can use swagger on your API. [Example](https://try.gitea.io/api/swagger)
+Documentation, but you can use swagger on your API. Example
 
 A postman Documentation (and you will provide the link inside your readme)
 
-### Part III
-Your project must be hosted in the cloud. (AWS/Google Cloud/Azure/IBM)
-Each of these providers have a free tier. You should be able to host it for 0$. :)
+# Installation
+npm i or npm install
+npm start
 
-You will provide the URL of your project inside the README
+# Usage
+npm start
+https://localhost:5000/
