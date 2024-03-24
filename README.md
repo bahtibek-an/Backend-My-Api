@@ -1,44 +1,25 @@
-# Backend My Api
-Build a backend project providing an API.
+# Task
+What is the problem? And where is the challenge?
 
-What is an API?
-API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
+In this project you can use get, post, put, delete project after registration,
+You can only get request 1k + data UNREGISTRATION
 
-When you use an application on your mobile phone, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and sends it back to your phone. The application then interprets that data and presents you with the information you wanted in a readable way. This is what an API is - all of this happens via API.
+# Description
+How have you solved the problem?
 
-![image](https://github.com/bahtibek-an/Backend-My-Api/assets/57597976/972bd4d6-8c61-4dae-9bb1-18a5d51a17f8)
+I used Mongo DB and Express js to build this API and also used MVC
+And you can do CRUD tasks in the by API
 
+# Installation
+How to install your project?
 
-## SPECIFICATIONS
-This project is divided into 3 parts. At the end you will host your application in the cloud. :)
+npm i or yarn install 
+npm start and npm run dev
+Server started on port 5000 or https://diyor-fully-api.onrender.com/
 
-### Part I
-Find a topic you like (volcanoes/earthquakes/animals/...), get a lot (more than 1k row data)
+# Usage
+You use http://localhost:5000/ or https://diyor-fully-api.onrender.com/ in Postman
+You can check get, post, put, delete with Postman
+and perform CRUD operations
 
-### Part II
-Build an API backend using any framework you want to use.
-
-Features of your project:
-
-User authentification in order to administer the data
-
-User Token (OAuth)
-
-Get/Post/Update/Destroy on your topic
--- Get must be accessible without being connected
-
-Get will provide pagination (max 20 elements per page)
-
-Cache (redis)
-
-(Optional) A Graphql interface
-
-Documentation, but you can use swagger on your API. [Example](https://try.gitea.io/api/swagger)
-
-A postman Documentation (and you will provide the link inside your readme)
-
-### Part III
-Your project must be hosted in the cloud. (AWS/Google Cloud/Azure/IBM)
-Each of these providers have a free tier. You should be able to host it for 0$. :)
-
-You will provide the URL of your project inside the README
+All Screenshots and Guides are Inside the Image File
